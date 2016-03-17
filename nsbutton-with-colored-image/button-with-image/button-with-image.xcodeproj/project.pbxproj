@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F592C041C9AB06A006F129C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F592C031C9AB06A006F129C /* AppDelegate.swift */; };
+		2F592C061C9AB06A006F129C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F592C051C9AB06A006F129C /* ViewController.swift */; };
+		2F592C081C9AB06A006F129C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F592C071C9AB06A006F129C /* Assets.xcassets */; };
+		2F592C0B1C9AB06A006F129C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F592C091C9AB06A006F129C /* Main.storyboard */; };
+		2F592C161C9AB06A006F129C /* button_with_imageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F592C151C9AB06A006F129C /* button_with_imageTests.swift */; };
+		2F592C211C9AB182006F129C /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F592C201C9AB182006F129C /* target.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F592C121C9AB06A006F129C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F592BF81C9AB06A006F129C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F592BFF1C9AB06A006F129C;
+			remoteInfo = "button-with-image";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F592C001C9AB06A006F129C /* button-with-image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "button-with-image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F592C031C9AB06A006F129C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F592C051C9AB06A006F129C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F592C071C9AB06A006F129C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F592C0A1C9AB06A006F129C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F592C0C1C9AB06A006F129C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F592C111C9AB06A006F129C /* button-with-imageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button-with-imageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F592C151C9AB06A006F129C /* button_with_imageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_with_imageTests.swift; sourceTree = "<group>"; };
+		2F592C171C9AB06A006F129C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F592C201C9AB182006F129C /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F592BFD1C9AB06A006F129C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F592C0E1C9AB06A006F129C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F592BF71C9AB06A006F129C = {
+			isa = PBXGroup;
+			children = (
+				2F592C021C9AB06A006F129C /* button-with-image */,
+				2F592C141C9AB06A006F129C /* button-with-imageTests */,
+				2F592C011C9AB06A006F129C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F592C011C9AB06A006F129C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F592C001C9AB06A006F129C /* button-with-image.app */,
+				2F592C111C9AB06A006F129C /* button-with-imageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F592C021C9AB06A006F129C /* button-with-image */ = {
+			isa = PBXGroup;
+			children = (
+				2F592C031C9AB06A006F129C /* AppDelegate.swift */,
+				2F592C051C9AB06A006F129C /* ViewController.swift */,
+				2F592C071C9AB06A006F129C /* Assets.xcassets */,
+				2F592C091C9AB06A006F129C /* Main.storyboard */,
+				2F592C201C9AB182006F129C /* target.png */,
+				2F592C0C1C9AB06A006F129C /* Info.plist */,
+			);
+			path = "button-with-image";
+			sourceTree = "<group>";
+		};
+		2F592C141C9AB06A006F129C /* button-with-imageTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F592C151C9AB06A006F129C /* button_with_imageTests.swift */,
+				2F592C171C9AB06A006F129C /* Info.plist */,
+			);
+			path = "button-with-imageTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F592BFF1C9AB06A006F129C /* button-with-image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F592C1A1C9AB06A006F129C /* Build configuration list for PBXNativeTarget "button-with-image" */;
+			buildPhases = (
+				2F592BFC1C9AB06A006F129C /* Sources */,
+				2F592BFD1C9AB06A006F129C /* Frameworks */,
+				2F592BFE1C9AB06A006F129C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "button-with-image";
+			productName = "button-with-image";
+			productReference = 2F592C001C9AB06A006F129C /* button-with-image.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F592C101C9AB06A006F129C /* button-with-imageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F592C1D1C9AB06A006F129C /* Build configuration list for PBXNativeTarget "button-with-imageTests" */;
+			buildPhases = (
+				2F592C0D1C9AB06A006F129C /* Sources */,
+				2F592C0E1C9AB06A006F129C /* Frameworks */,
+				2F592C0F1C9AB06A006F129C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F592C131C9AB06A006F129C /* PBXTargetDependency */,
+			);
+			name = "button-with-imageTests";
+			productName = "button-with-imageTests";
+			productReference = 2F592C111C9AB06A006F129C /* button-with-imageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F592BF81C9AB06A006F129C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HASHIMOTO Wataru";
+				TargetAttributes = {
+					2F592BFF1C9AB06A006F129C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2F592C101C9AB06A006F129C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2F592BFF1C9AB06A006F129C;
+					};
+				};
+			};
+			buildConfigurationList = 2F592BFB1C9AB06A006F129C /* Build configuration list for PBXProject "button-with-image" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F592BF71C9AB06A006F129C;
+			productRefGroup = 2F592C011C9AB06A006F129C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F592BFF1C9AB06A006F129C /* button-with-image */,
+				2F592C101C9AB06A006F129C /* button-with-imageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F592BFE1C9AB06A006F129C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F592C081C9AB06A006F129C /* Assets.xcassets in Resources */,
+				2F592C0B1C9AB06A006F129C /* Main.storyboard in Resources */,
+				2F592C211C9AB182006F129C /* target.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F592C0F1C9AB06A006F129C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F592BFC1C9AB06A006F129C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F592C061C9AB06A006F129C /* ViewController.swift in Sources */,
+				2F592C041C9AB06A006F129C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F592C0D1C9AB06A006F129C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F592C161C9AB06A006F129C /* button_with_imageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F592C131C9AB06A006F129C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F592BFF1C9AB06A006F129C /* button-with-image */;
+			targetProxy = 2F592C121C9AB06A006F129C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F592C091C9AB06A006F129C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F592C0A1C9AB06A006F129C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F592C181C9AB06A006F129C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F592C191C9AB06A006F129C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F592C1B1C9AB06A006F129C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "button-with-image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.wataruhash.button-with-image";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F592C1C1C9AB06A006F129C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "button-with-image/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.wataruhash.button-with-image";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F592C1E1C9AB06A006F129C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "button-with-imageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.wataruhash.button-with-imageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button-with-image.app/Contents/MacOS/button-with-image";
+			};
+			name = Debug;
+		};
+		2F592C1F1C9AB06A006F129C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "button-with-imageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.wataruhash.button-with-imageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button-with-image.app/Contents/MacOS/button-with-image";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F592BFB1C9AB06A006F129C /* Build configuration list for PBXProject "button-with-image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F592C181C9AB06A006F129C /* Debug */,
+				2F592C191C9AB06A006F129C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F592C1A1C9AB06A006F129C /* Build configuration list for PBXNativeTarget "button-with-image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F592C1B1C9AB06A006F129C /* Debug */,
+				2F592C1C1C9AB06A006F129C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F592C1D1C9AB06A006F129C /* Build configuration list for PBXNativeTarget "button-with-imageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F592C1E1C9AB06A006F129C /* Debug */,
+				2F592C1F1C9AB06A006F129C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F592BF81C9AB06A006F129C /* Project object */;
+}
