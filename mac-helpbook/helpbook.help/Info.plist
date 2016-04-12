@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en-us</string>
+	<key>CFBundleIdentifier</key>
+	<string>13D858AF-8762-4B9F-9B38-802CD3E68323</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+	<key>HPDBookAccessPath</key>
+	<string>index.html</string>
+	<key>HPDBookIconPath</key>
+	<string></string>
+	<key>HPDBookIndexPath</key>
+	<string>helpbook.helpindex</string>
+	<key>HPDBookKBProduct</key>
+	<string>khelpbookwararuhash</string>
+	<key>HPDBookKBURL</key>
+	<string></string>
+	<key>HPDBookRemoteURL</key>
+	<string></string>
+	<key>HPDBookType</key>
+	<string>3</string>
+	<key>HPDBookUsesExternalViewer</key>
+	<false/>
+	<key>HPDClipTOCWidth</key>
+	<integer>190</integer>
+	<key>HPDMaxWindowWidth</key>
+	<integer>938</integer>
+</dict>
+</plist>
