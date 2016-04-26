@@ -46,7 +46,7 @@ class GIFEncoder {
         for i in 0..<frameCount {
             let gifFrame = dataSource.gifFrame(i)
             
-            let dic: NSDictionary = [kCGImagePropertyGIFDictionary as NSString: ([kCGImagePropertyGIFDelayTime as NSString: 0.5] as NSDictionary)]
+            let dic = [kCGImagePropertyGIFDictionary as NSString: ([kCGImagePropertyGIFDelayTime as NSString: gifFrame.duration] as NSDictionary)]
             
             CGImageDestinationAddImage(destination!, gifFrame.image, dic)
         }
@@ -56,7 +56,7 @@ class GIFEncoder {
             CGImageDestinationSetProperties(destination!, dic)
         }
         CGImageDestinationFinalize(destination!)
-        
+
         completion(encodedData:data as NSData)
     }
 }
