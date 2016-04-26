@@ -5,7 +5,7 @@ import MobileCoreServices
 
 enum GIFLoopCount {
     case Forever
-    case Count(count: UInt16)
+    case Count(UInt16)
     
     var rawValue: UInt16 {
         switch self {
@@ -79,7 +79,7 @@ extension SomeWhatContainer: GIFEncoderDataSource {
     
     var loopCount: GIFLoopCount {
         get{
-            return .Count(count: 5)
+            return .Count(5)
         }
     }
     
