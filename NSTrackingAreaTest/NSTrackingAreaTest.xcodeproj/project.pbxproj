@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FDB36BA1F4AD6FC000D37E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB36B91F4AD6FC000D37E4 /* AppDelegate.swift */; };
+		2FDB36BC1F4AD6FC000D37E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB36BB1F4AD6FC000D37E4 /* ViewController.swift */; };
+		2FDB36BE1F4AD6FC000D37E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB36BD1F4AD6FC000D37E4 /* Assets.xcassets */; };
+		2FDB36C11F4AD6FC000D37E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB36BF1F4AD6FC000D37E4 /* Main.storyboard */; };
+		2FDB36CD1F4AD6FC000D37E4 /* NSTrackingAreaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB36CC1F4AD6FC000D37E4 /* NSTrackingAreaTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FDB36C91F4AD6FC000D37E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FDB36AE1F4AD6FC000D37E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FDB36B51F4AD6FC000D37E4;
+			remoteInfo = NSTrackingAreaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FDB36B61F4AD6FC000D37E4 /* NSTrackingAreaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTrackingAreaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDB36B91F4AD6FC000D37E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FDB36BB1F4AD6FC000D37E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FDB36BD1F4AD6FC000D37E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FDB36C01F4AD6FC000D37E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FDB36C21F4AD6FC000D37E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDB36C31F4AD6FC000D37E4 /* NSTrackingAreaTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTrackingAreaTest.entitlements; sourceTree = "<group>"; };
+		2FDB36C81F4AD6FC000D37E4 /* NSTrackingAreaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTrackingAreaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDB36CC1F4AD6FC000D37E4 /* NSTrackingAreaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTrackingAreaTestTests.swift; sourceTree = "<group>"; };
+		2FDB36CE1F4AD6FC000D37E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FDB36B31F4AD6FC000D37E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDB36C51F4AD6FC000D37E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FDB36AD1F4AD6FC000D37E4 = {
+			isa = PBXGroup;
+			children = (
+				2FDB36B81F4AD6FC000D37E4 /* NSTrackingAreaTest */,
+				2FDB36CB1F4AD6FC000D37E4 /* NSTrackingAreaTestTests */,
+				2FDB36B71F4AD6FC000D37E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FDB36B71F4AD6FC000D37E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB36B61F4AD6FC000D37E4 /* NSTrackingAreaTest.app */,
+				2FDB36C81F4AD6FC000D37E4 /* NSTrackingAreaTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FDB36B81F4AD6FC000D37E4 /* NSTrackingAreaTest */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB36B91F4AD6FC000D37E4 /* AppDelegate.swift */,
+				2FDB36BB1F4AD6FC000D37E4 /* ViewController.swift */,
+				2FDB36BD1F4AD6FC000D37E4 /* Assets.xcassets */,
+				2FDB36BF1F4AD6FC000D37E4 /* Main.storyboard */,
+				2FDB36C21F4AD6FC000D37E4 /* Info.plist */,
+				2FDB36C31F4AD6FC000D37E4 /* NSTrackingAreaTest.entitlements */,
+			);
+			path = NSTrackingAreaTest;
+			sourceTree = "<group>";
+		};
+		2FDB36CB1F4AD6FC000D37E4 /* NSTrackingAreaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB36CC1F4AD6FC000D37E4 /* NSTrackingAreaTestTests.swift */,
+				2FDB36CE1F4AD6FC000D37E4 /* Info.plist */,
+			);
+			path = NSTrackingAreaTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FDB36B51F4AD6FC000D37E4 /* NSTrackingAreaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDB36D11F4AD6FC000D37E4 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTest" */;
+			buildPhases = (
+				2FDB36B21F4AD6FC000D37E4 /* Sources */,
+				2FDB36B31F4AD6FC000D37E4 /* Frameworks */,
+				2FDB36B41F4AD6FC000D37E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTrackingAreaTest;
+			productName = NSTrackingAreaTest;
+			productReference = 2FDB36B61F4AD6FC000D37E4 /* NSTrackingAreaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FDB36C71F4AD6FC000D37E4 /* NSTrackingAreaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDB36D41F4AD6FC000D37E4 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTestTests" */;
+			buildPhases = (
+				2FDB36C41F4AD6FC000D37E4 /* Sources */,
+				2FDB36C51F4AD6FC000D37E4 /* Frameworks */,
+				2FDB36C61F4AD6FC000D37E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FDB36CA1F4AD6FC000D37E4 /* PBXTargetDependency */,
+			);
+			name = NSTrackingAreaTestTests;
+			productName = NSTrackingAreaTestTests;
+			productReference = 2FDB36C81F4AD6FC000D37E4 /* NSTrackingAreaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FDB36AE1F4AD6FC000D37E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wataruhash.info;
+				TargetAttributes = {
+					2FDB36B51F4AD6FC000D37E4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					2FDB36C71F4AD6FC000D37E4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 2FDB36B51F4AD6FC000D37E4;
+					};
+				};
+			};
+			buildConfigurationList = 2FDB36B11F4AD6FC000D37E4 /* Build configuration list for PBXProject "NSTrackingAreaTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FDB36AD1F4AD6FC000D37E4;
+			productRefGroup = 2FDB36B71F4AD6FC000D37E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FDB36B51F4AD6FC000D37E4 /* NSTrackingAreaTest */,
+				2FDB36C71F4AD6FC000D37E4 /* NSTrackingAreaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FDB36B41F4AD6FC000D37E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDB36BE1F4AD6FC000D37E4 /* Assets.xcassets in Resources */,
+				2FDB36C11F4AD6FC000D37E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDB36C61F4AD6FC000D37E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FDB36B21F4AD6FC000D37E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDB36BC1F4AD6FC000D37E4 /* ViewController.swift in Sources */,
+				2FDB36BA1F4AD6FC000D37E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDB36C41F4AD6FC000D37E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDB36CD1F4AD6FC000D37E4 /* NSTrackingAreaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FDB36CA1F4AD6FC000D37E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FDB36B51F4AD6FC000D37E4 /* NSTrackingAreaTest */;
+			targetProxy = 2FDB36C91F4AD6FC000D37E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FDB36BF1F4AD6FC000D37E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FDB36C01F4AD6FC000D37E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FDB36CF1F4AD6FC000D37E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FDB36D01F4AD6FC000D37E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2FDB36D21F4AD6FC000D37E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTrackingAreaTest/NSTrackingAreaTest.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTrackingAreaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.NSTrackingAreaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2FDB36D31F4AD6FC000D37E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTrackingAreaTest/NSTrackingAreaTest.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTrackingAreaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.NSTrackingAreaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2FDB36D51F4AD6FC000D37E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTrackingAreaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.NSTrackingAreaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTrackingAreaTest.app/Contents/MacOS/NSTrackingAreaTest";
+			};
+			name = Debug;
+		};
+		2FDB36D61F4AD6FC000D37E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTrackingAreaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.wataruhash.NSTrackingAreaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTrackingAreaTest.app/Contents/MacOS/NSTrackingAreaTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FDB36B11F4AD6FC000D37E4 /* Build configuration list for PBXProject "NSTrackingAreaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDB36CF1F4AD6FC000D37E4 /* Debug */,
+				2FDB36D01F4AD6FC000D37E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FDB36D11F4AD6FC000D37E4 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDB36D21F4AD6FC000D37E4 /* Debug */,
+				2FDB36D31F4AD6FC000D37E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FDB36D41F4AD6FC000D37E4 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDB36D51F4AD6FC000D37E4 /* Debug */,
+				2FDB36D61F4AD6FC000D37E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FDB36AE1F4AD6FC000D37E4 /* Project object */;
+}
