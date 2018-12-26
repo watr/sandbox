@@ -33,6 +33,37 @@ class GIFEncoder {
     init(dataSource: GIFEncoderDataSource) {
         self.dataSource = dataSource
     }
+    
+    func encode(storeURL: NSURL) -> NSURL? {
+        
+        let uuid = NSUUID().UUIDString
+        let destinationURL = storeURL.URLByAppendingPathComponent(uuid).URLByAppendingPathExtension("gif")
+        
+        let frameCount = dataSource.gifFrameCount
+        let loopCount = dataSource.loopCount
+        
+        let destination = CGImageDestinationCreateWithURL(destinationURL,
+                                                          kUTTypeGIF,
+                                                          frameCount,
+                                                          nil)
+        
+        for i in 0..<frameCount {
+            let gifFrame = dataSource.gifFrame(i)
+            
+            let dic = [kCGImagePropertyGIFDictionary as NSString: ([kCGImagePropertyGIFDelayTime as NSString: gifFrame.duration] as NSDictionary)]
+            
+            CGImageDestinationAddImage(destination!, gifFrame.image, dic)
+        }
+        
+        do {
+            let dic = [kCGImagePropertyGIFDictionary as NSString: ([kCGImagePropertyGIFLoopCount as NSString: NSNumber(unsignedShort: loopCount.rawValue)] as NSDictionary)]
+            CGImageDestinationSetProperties(destination!, dic)
+        }
+        CGImageDestinationFinalize(destination!)
+        
+        return destinationURL
+    }
+    
     func encode(completion:(encodedData: NSData?) -> Void) {
         let data = CFDataCreateMutable(kCFAllocatorDefault, 0)!
         let frameCount = dataSource.gifFrameCount
@@ -93,13 +124,16 @@ extension SomeWhatContainer: GIFEncoderDataSource {
 
 let encoder = GIFEncoder(dataSource: SomeWhatContainer())
 
-encoder.encode() { data in
-    if let dir = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.AllDomainsMask, true).first {
-        
+if let documentDirectory = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.AllDomainsMask, true).first {
+    
+    func printHelp(url: NSURL) {
+        print("open -a Safari \"\(url)\"")
+    }
+    
+    encoder.encode() { data in
+        let dir = documentDirectory
         // print help for preview gif file
-        func printHelp(url: NSURL) {
-            print("open -a Safari \"\(url)\"")
-        }
+       
         
         let file = "demo.gif"
         let url = NSURL(fileURLWithPath: dir).URLByAppendingPathComponent(file)
@@ -111,6 +145,13 @@ encoder.encode() { data in
             try data?.writeToURL(url, options: .DataWritingAtomic)
         }
         catch {
+        }
+    }
+    
+    do {
+        if let url = encoder.encode(NSURL(fileURLWithPath:documentDirectory)) {
+            // print help
+            printHelp(url)
         }
     }
 }
